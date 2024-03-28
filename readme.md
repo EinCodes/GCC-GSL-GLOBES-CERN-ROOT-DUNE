@@ -28,7 +28,7 @@ O VSCode é um editor de código fonte que possui diversas ferramentas para edi�
 
 - Operação:
     1. Inicializar o executavel do Docker Desktop
-    2. Instalar o Visual Studio Code
+    2. Inicializar o Visual Studio Code
     3. Acessar na aba lateral esquerda o botão [Remote Explorer](./assets/sample-03.png)
     </br> ![VSCode aba de extensões](./assets/sample-02.png) 
     4. Clicar no botão `Attach In New Window` ao lado do container root_dune para abrir o container em uma nova janela
