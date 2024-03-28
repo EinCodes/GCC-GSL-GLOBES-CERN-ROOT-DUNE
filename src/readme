@@ -1,0 +1,41 @@
+# GCC-GSL-GLOBES-CERN-ROOT-DUNE
+- GCC Version: 13.2.0 (see `gcc --version`)
+- GSL Version: 2.7.0 (see `gsl-config --version`)
+- GLOBES Version: 3.2.18
+- CERN ROOT Version: latest from conda-forge
+
+## Useful Directories
+- /usr/src/user/examples/globes (e.g., `/usr/src/user/examples/globes/example1.sh`)
+- /usr/src/user/dune (e.g., `/usr/src/user/dune/dune_globes/DUNE_GLoBES.glb`)
+
+## How to use CERN ROOT in this container:
+CERN ROOT was installed using the conda package manager, so it is only available when the conda main environment is activated (using the command `conda activate main`). However, switching to the conda main environment makes GSL and GLOBES unavailable. To switch back and make these libraries available again, use the command `conda deactivate`.
+
+### How to switch to the conda main environment to enable CERN ROOT usage in the CLI:
+- Run the command: `conda activate main`. This activates the main environment created by conda, which contains CERN ROOT.
+- Now the `root` command is available for use, and you will see the `(main)` prefix in the CLI. Note that GSL and GLOBES are unavailable since it is a different environment.
+
+### How to quit the conda main environment:
+- Run the command: `conda deactivate`.
+
+
+
+# (PT-BR) GCC-GSL-GLOBES-CERN-ROOT-DUNE
+- Versão do GCC: 13.2.0 (verifique com `gcc --version`)
+- Versão do GSL: 2.7.0 (verifique com `gsl-config --version`)
+- Versão do GLOBES: 3.2.18
+- Versão do CERN ROOT: mais recente do conda-forge
+
+## Diretórios Úteis
+- /usr/src/user/examples/globes (ex: `/usr/src/user/examples/globes/example1.sh`)
+- /usr/src/user/dune (ex: `/usr/src/user/dune/dune_globes/DUNE_GLoBES.glb`)
+
+## Como usar o CERN ROOT neste contêiner:
+O CERN ROOT foi instalado usando o gerenciador de pacotes Conda, portanto, está disponível apenas quando o ambiente main do Conda está ativado (usando o comando `conda activate main`). No entanto, ao alternar para o ambiente main do Conda, o GSL e o GLOBES ficam indisponíveis. Para retornar e tornar essas bibliotecas disponíveis novamente, use o comando `conda deactivate`.
+
+### Como alternar para o ambiente principal do Conda para habilitar o uso do CERN ROOT na CLI:
+- Execute o comando: `conda activate main`. Isso ativa o ambiente main criado através do Conda, que contém o CERN ROOT.
+- Agora o comando `root` está disponível para uso, e você verá o prefixo `(main)` na CLI. Observe que o GSL e o GLOBES não estarão disponíveis após esta ação, pois é um ambiente diferente.
+
+### Como sair do ambiente principal do Conda:
+- Execute o comando: `conda deactivate`.
