@@ -24,17 +24,17 @@ VSCode is a source code editor that has various tools for editing and executing 
         - [Visual Studio Code Marketplace • Remote Explorer](https://marketplace.visualstudio.com/items?itemName=ms-vscode.remote-explorer)
         - [Visual Studio Code Marketplace • Dev Containers](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers)
         - [Visual Studio Code Marketplace • Docker](https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-docker)
-        </br> ![VSCode extension tab](/src/sample-01.png)
+        </br> ![VSCode extension tab](./assets/sample-01.png)
 
 - Operation:
     1. Start the Docker Desktop executable
     2. Install Visual Studio Code
-    3. Access the [Remote Explorer](/src/sample-03.png) button on the left sidebar
-    </br> ![VSCode extension tab](/src/sample-02.png) 
+    3. Access the [Remote Explorer](./assets/sample-03.png) button on the left sidebar
+    </br> ![VSCode extension tab](./assets/sample-02.png) 
     4. Click the `Attach In New Window` button next to the root_dune container to open the container in a new window
-    </br> ![VSCode extension tab](/src/sample-04.png)
+    </br> ![VSCode extension tab](./assets/sample-04.png)
     5. In the new window, click `Open Folder` to open a working folder (e.g., `/usr/src/user/`)
-    </br> ![VSCode extension tab](/src/sample-05.png)
+    </br> ![VSCode extension tab](./assets/sample-05.png)
 
 #### Operating the container via command line:
 It is possible to interact with the environment created by the container in any terminal, but without the aid of any graphical interface. After starting the container in interactive mode, it is possible to edit, compile, and execute programs using only the command line, if experienced.
